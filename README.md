@@ -14,7 +14,7 @@ Each script processes PDFs and outputs text in Markdown and/or JSON formats.
 ---
 
 ## Project Structure
-## Project Structure
+
 
 
 project_root/
