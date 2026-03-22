@@ -1,9 +1,7 @@
 """
 Docling PDF Text Extraction 
--------------------------------------------
-Parses PDFs and exports their text content to Markdown.
-"""
 
+"""
 from docling.document_converter import DocumentConverter
 from pathlib import Path
 
@@ -12,7 +10,7 @@ from pathlib import Path
 # -------------------------
 PROJECT_ROOT = Path(__file__).resolve().parent
 INPUT_PDF_DIR = PROJECT_ROOT / "input_pdfs"
-OUTPUT_MD_DIR = PROJECT_ROOT / "outputTEST_wer_cer"
+OUTPUT_MD_DIR = PROJECT_ROOT / "output_md"
 OUTPUT_MD_DIR.mkdir(parents=True, exist_ok=True)
 
 # -------------------------
