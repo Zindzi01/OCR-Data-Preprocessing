@@ -27,9 +27,6 @@ os.makedirs(OUTPUT_JSON_DIR, exist_ok=True)
 # ==================================================
 # OCR SETTINGS (FOR FORMS)
 # ==================================================
-# ✔ Allows punctuation (.,)
-# ✔ Blocks form line noise only
-# ✔ PSM 4 works best for structured forms
 
 OCR_CONFIG = "--oem 3 --psm 4 -c tessedit_char_blacklist=|—-"
 
