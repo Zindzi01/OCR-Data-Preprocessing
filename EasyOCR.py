@@ -5,9 +5,9 @@ import numpy as np
 import cv2
 import json
 
-POPPLER_PATH = r"C:\Users\naomi\Downloads\Release-25.12.0-0\poppler-25.12.0\Library\bin"
-INPUT_DIR = "Folder_Testpdfs"
-OUTPUT_DIR = "outputFolder_Testpdfs"
+POPPLER_PATH = r"C:\Users\..."
+INPUT_DIR = ""input_pdfs
+OUTPUT_DIR = "output_Tpdfs"
 CONFIDENCE_THRESHOLD = 0.5
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
