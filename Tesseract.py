@@ -14,8 +14,8 @@ from PIL import Image
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Input / Output folders
-INPUT_DIR = "Folder_Testpdfs"
-OUTPUT_BASE_DIR = "output2_Folder_Testpdfs2"
+INPUT_DIR = "input_pdfs"
+OUTPUT_BASE_DIR = "output_pdfs"
 
 OUTPUT_MD_DIR = os.path.join(OUTPUT_BASE_DIR, "md")
 OUTPUT_JSON_DIR = os.path.join(OUTPUT_BASE_DIR, "json")
