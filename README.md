@@ -1,4 +1,4 @@
-# PDF Text Extraction & OCR Pipeline
+# Data Processing with OCR
 
 ## Overview
 This project provides multiple approaches for extracting text from PDF documents using both structured parsing and OCR techniques. It is designed for document preprocessing workflows such as Retrieval-Augmented Generation (RAG), data pipelines, and information extraction systems.
